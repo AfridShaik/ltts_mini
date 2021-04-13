@@ -45,15 +45,11 @@ test: $(SRC) $(test_src) $(UNITY)
 	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
-coverage:${PROJECT_NAME}
-	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(SRC)
 
 
 doc:
 	make -C doc
-   
+
 #pro: $(main_src) $(SRC) 
 #	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe
 
