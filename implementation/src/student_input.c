@@ -111,7 +111,7 @@ Student s;
         }
 	    }
 		fptr = fopen("E:/program.txt","w");
-		fprintf(fptr,"Student Details are:\n%s \n %s \n %s \n %s \n %s \n %d \n %s \n",s.name,s.registration_number,s.course,s.year,s.department,s.age,s.gender);
+		fprintf(fptr,"Student Details are:\nName of the student: %s \n Registration Number: %s \n Course: %s \n Year: %s \n Department: %s \n Age of the student: %d \n Gender: %s \n",s.name,s.registration_number,s.course,s.year,s.department,s.age,s.gender);
 		
 	   if(fptr == NULL)
 	   {
