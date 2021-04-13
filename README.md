@@ -58,3 +58,16 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## How:
 * Calculating their marks manually for each subject would be a time-consuming operation, and if anything goes wrong, the whole process will have to be repeated from the beginning..
+
+
+
+
+# Detail requirements
+## High Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| 1 | A comprehensive report of a student's grades can be produced. | Techincal | TBD-S1 | 
+| 2 | Students will see if they passed or failed their semester exams.| Techincal | TBD-S1 |
+| 3 | In their student information, students can choose a course. | Techincal | TBD-S1 |
+| 4 | Students may choose their preferred year. | Techincal | TBD-S1 |
+| 5 | Students may compute their internal and external grades. | Techincal | TBD-S1 |
