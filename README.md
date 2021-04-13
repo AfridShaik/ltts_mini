@@ -2,7 +2,19 @@
 
 ![Banner](https://github.com/AfridShaik/ltts_mini/blob/main/1-Requirments/banner.jpg)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e8384776f44d0c971c1b03171b0bc9)](https://app.codacy.com/gh/AfridShaik/ltts_mini?utm_source=github.com&utm_medium=referral&utm_content=AfridShaik/ltts_mini&utm_campaign=Badge_Grade_Settings)
+Build | Code Quality | Unity | [Git Inspector](using github.io option)
+|---------|--------------|-----------|------------------
+[![C/C++ CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-cppcheck.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-cppcheck.yml) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e8384776f44d0c971c1b03171b0bc9)](https://app.codacy.com/gh/AfridShaik/ltts_mini?utm_source=github.com&utm_medium=referral&utm_content=AfridShaik/ltts_mini&utm_campaign=Badge_Grade_Settings) | [![Unity-Check](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-unity.yml) | [![git inspector CI](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/arc-arnob/LnT_Mini_Project/actions/workflows/arc-gitinspector.yml)
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1-Requirements`   | Documents detailing requirements and research
+`2-Design`         | Documents specifying design details
+`3-Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
+
+
 
 # Requirements
 ## Introduction
