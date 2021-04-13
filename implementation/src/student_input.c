@@ -2,6 +2,13 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
+/**
+ * @brief student_input takes the input from the user this funtion takes the all basic information
+ * like name,registrantion,number,gender,branch,year ets
+ * @author AfridShaik
+ * 
+ * @return int 
+ */
 int student_input(){ 
 Student s;
 	int num=1,x,count=0,*ptr,i;
@@ -88,11 +95,11 @@ Student s;
 		
 		ptr = (int*)calloc(6, sizeof(int));
 		
-		if (ptr == NULL) {
+		/*if (ptr == NULL) {
         printf("Memory not allocated.\n");
         exit(0);
-	    }
-	    else {	
+	    }*/
+	    //else {//	
 	    ptr[0] = s1.sub_status;
 		ptr[1] = s2.sub_status;
 		ptr[2] = s3.sub_status;
@@ -128,4 +135,3 @@ Student s;
 		printf("Do you want to report for other student?\nPress 1 for Yes\nPress 0 for No\n");
 		scanf("%d",&num);
 	}	
-}

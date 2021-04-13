@@ -2,6 +2,14 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
+
+/**
+ * @brief in this marks_input_funtion() we will take the marks as input form the user and store it in the 
+ * structure which we have created at the inc/funtion.h folder 
+ * @author AfridShaik
+ * 
+ * @return struct Subject_Marks 
+ */
     struct Subject_Marks marks_input_function(){
 	struct Subject_Marks m;
 	loop4:
