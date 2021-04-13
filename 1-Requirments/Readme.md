@@ -10,9 +10,9 @@ Users will measure their grades before and after exams and strive for high grade
 ### Explanation:
 * Student Report:
     * Create a comprehensive personal report for each student.
-    * Students should save their personal information in a text file.
+    * Students can save their personal information in a text file.
     * Student can calculate their internal marks.
-    * Students should figure out their external grades.
+    * Students can calculate external marks.
 
 
 # 4W&#39;s and 1&#39;H
