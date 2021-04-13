@@ -1,6 +1,6 @@
 #include "E:\mini\unity\unity.h"
 #include "E:\mini\unity\unity_internals.h"
-#include "funtion.h"
+#include"C:\Users\afrid\OneDrive\Documents\min\ltts_mini\implementation\inc\funtion.h"
 #include<stdio.h>
 
 
