@@ -71,3 +71,13 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 | 3 | In their student information, students can choose a course. | Techincal | TBD-S1 |
 | 4 | Students may choose their preferred year. | Techincal | TBD-S1 |
 | 5 | Students may compute their internal and external grades. | Techincal | TBD-S1 |
+
+
+## Low Level Requirements: 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| 1 | A text file will be created in thet file all the detials like name,registration number,year,branch,age,internal amrks exxternal marks and weather you have passed the semister or not all will be created in a text file which user can see  | Techincal | TBD-S1 | 
+| 2 | At the end of the report all the internal and externals are to be calculated inter maximum makrs are 40 minimum marks are 18 and in external marks are maimum marks are 60 minumum marks are 24 and attendance marks are maximum marks are 4 minimun marks are 1 all will be calculated to geated and if he gets above 50 he is passed and less than 50 failed in semister exams.| Techincal | TBD-S1 |
+| 3 | The student will choose a preferred course, such as CSE, IT, or ECE, which will be shown on the report card. | Techincal | TBD-S1 |
+| 4 | Students have the option of choosing which year they want to study in! first year, second year, third year, fourth year | Techincal | TBD-S1 |
+| 5 | The internals and externals marks of each student will be measured separately. | Techincal | TBD-S1 |
