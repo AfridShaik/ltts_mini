@@ -13,13 +13,20 @@ endif
 
 SRC = src\marks_input.c src\student_input.c src\marks_calculate.c 
 
-test_src = src\marks_calculate_test.c
+test_src = test_files\marks_calculate_test.c
 
 main_src = main.c
 
 UNITY = unity/unity.c 
 
 INC = inc
+
+pro: $(main_src) $(SRC) 
+	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe
+
+
+pro_run: pro.exe
+	./pro.exe
 
 
 test: $(SRC) $(test_src)
@@ -28,12 +35,7 @@ test: $(SRC) $(test_src)
 run: test.exe
 	./test.exe
 
-pro: $(main_src) $(SRC) 
-	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe
 
-
-pro_run: pro.exe
-	./pro.exe
 
 
 
