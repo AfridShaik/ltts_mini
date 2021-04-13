@@ -1,4 +1,4 @@
-#include"C:\Users\afrid\OneDrive\Documents\min\ltts_mini\implementation\inc\funtion.h"
+#include"../inc/funtion.h"
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>

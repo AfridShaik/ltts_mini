@@ -1,4 +1,4 @@
-#include"C:\Users\afrid\OneDrive\Documents\min\ltts_mini\implementation\inc\funtion.h"
+#include"./inc/funtion.h"
 /**
  * @brief this program is input based so in main program i am calling the student_input() funtion
  * 

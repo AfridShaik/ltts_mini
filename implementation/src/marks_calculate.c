@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"C:\Users\afrid\OneDrive\Documents\min\ltts_mini\implementation\inc\funtion.h"
+#include"../inc/funtion.h"
 
 int internal_calculation(int a,int b,int c,int aa,int bb,int cc,int dd,int ee,int att)
 {
