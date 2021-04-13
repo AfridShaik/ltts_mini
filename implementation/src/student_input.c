@@ -113,13 +113,13 @@ Student s;
 		fptr = fopen("E:/program.txt","w");
 		fprintf(fptr,"Student Details are:\n%s \n %s \n %s \n %s \n %s \n %d \n %s \n",s.name,s.registration_number,s.course,s.year,s.department,s.age,s.gender);
 		
-	   /*if(fptr == NULL)
+	   if(fptr == NULL)
 	   {
 	      printf("Error!");   
 	      exit(1);             
 	   } 
 	   else
-	   {*/
+	   {
 	   		if(count==6)
 	   		{
 	   			fprintf(fptr,"\n %s have passed this semester with 0 backlogs",s.name);	
@@ -129,7 +129,7 @@ Student s;
 				count = 6-count;
 				fprintf(fptr,"\n %s have passed this semester with %d backlogs",s.name,count);
 			}
-	   //}//
+	   }
 	   
 	   fclose(fptr);
 		printf("Do you want to report for other student?\nPress 1 for Yes\nPress 0 for No\n");

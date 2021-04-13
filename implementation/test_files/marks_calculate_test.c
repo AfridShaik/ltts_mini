@@ -50,37 +50,37 @@ void test_total_marks_calculation_1(void)
 
 void test_total_marks_calculation_2(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(100,total_marks_calculation(40,60));
 
 }
 
 void test_total_marks_calculation_3(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(80,total_marks_calculation(40,40));
 
 }
 
 void test_total_marks_calculation_4(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(79,total_marks_calculation(50,29));
 
 }
 
 void test_total_marks_calculation_5(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(85,total_marks_calculation(30,55));
 
 }
 
 void test_total_marks_calculation_6(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(62,total_marks_calculation(30,32));
 
 }
 
 void test_total_marks_calculation_7(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(75,total_marks_calculation(30,45));
 
 }
 
@@ -92,73 +92,73 @@ void test_total_marks_calculation_8(void)
 
 void test_total_marks_calculation_9(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(60,total_marks_calculation(35,25));
 
 }
 
 void test_total_marks_calculation_10(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(80,total_marks_calculation(50,30));
 
 }
 
 void test_total_marks_calculation_11(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(90,total_marks_calculation(55,35));
 
 }
 
 void test_total_marks_calculation_12(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(90,total_marks_calculation(56,34));
 
 }
 
 void test_total_marks_calculation_13(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(90,total_marks_calculation(51,39));
 
 }
 
 void test_total_marks_calculation_14(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(60,total_marks_calculation(26,34));
 
 }
 
 void test_total_marks_calculation_15(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(50,total_marks_calculation(25,25));
 
 }
 
 void test_total_marks_calculation_16(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(60,total_marks_calculation(30,30));
 
 }
 
 void test_total_marks_calculation_17(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(65,total_marks_calculation(35,30));
 
 }
 
 void test_total_marks_calculation_18(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(75,total_marks_calculation(20,55));
 
 }
 
 void test_total_marks_calculation_19(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(95,total_marks_calculation(40,55));
 
 }
 
 void test_total_marks_calculation_20(void)
 {
-    TEST_ASSERT_EQUAL(90,total_marks_calculation(35,55));
+    TEST_ASSERT_EQUAL(85,total_marks_calculation(30,55));
 
 }
 

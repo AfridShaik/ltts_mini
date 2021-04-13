@@ -46,7 +46,6 @@ test: $(SRC) $(test_src) $(UNITY)
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 
-
 doc:
 	make -C doc
 

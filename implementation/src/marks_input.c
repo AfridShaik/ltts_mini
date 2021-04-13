@@ -48,6 +48,7 @@
 		printf("\nYou have entered a wrong choice");
 		goto loop6;
 	}
+	//internal_calculation is in the file name of marks_calculate and teruns the value
 	m.internal = internal_calculation(m.mid1,m.mid2,m.mid3,m.wt1,m.wt2,m.wt3,m.wt4,m.wt5,m.attendance);
 	//m.internal = ((m.mid1 + m.mid2 + m.mid3)/5)+(((m.wt1 + m.wt2 + m.wt3 + m.wt4 + m.wt5)*18)/50) + m.attendance;
 	loop7:
@@ -59,6 +60,7 @@
 		goto loop7;
 	}
 	m.total = total_marks_calculation(m.internal, m.external);
+	//if you got less that 50 in totals internals + externals your are fail and internals < 24 or exteranls < 26 then you are failed in subject
 	if(m.total < 50 || m.internal < 24 || m.external < 26)
 	{
 		m.sub_status = Failed;
