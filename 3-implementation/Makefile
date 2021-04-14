@@ -71,11 +71,17 @@ coverage:${PROJECT_NAME}
 	gcc -fprofile-arcs -ftest-coverage main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a main.c $(SRC) $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(RM) *.gcno
+	$(RM) *.gcov
+	$(RM) *.gcda
  
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
+valgrind:
+	valgrind $(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
 
+	
 clean:
 	$(RM) *.$(EXEC)
 	$(RM) *.gcno
