@@ -1,10 +1,10 @@
-### Student Report Card
+# Student Report Card
 
 ![Banner](https://github.com/AfridShaik/ltts_mini/blob/main/1-Requirments/banner.jpg)
 
-Build | Code Coverage | Unity | Code Quality
-|---------|--------------|-----------|------------------
-|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e8384776f44d0c971c1b03171b0bc9)](https://app.codacy.com/gh/AfridShaik/ltts_mini?utm_source=github.com&utm_medium=referral&utm_content=AfridShaik/ltts_mini&utm_campaign=Badge_Grade_Settings) |[![CI](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml)|[![Unit Testing - Unity](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml)|||
+Codacy | Code Coverage | Unity | Build | Code Quality - Static analysis
+|---------|--------------|-----------|------------------|------------------
+|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e8384776f44d0c971c1b03171b0bc9)](https://app.codacy.com/gh/AfridShaik/ltts_mini?utm_source=github.com&utm_medium=referral&utm_content=AfridShaik/ltts_mini&utm_campaign=Badge_Grade_Settings) |[![CI](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml)|[![Unit Testing - Unity](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml)| [![C/C++ CI - Build Status](https://github.com/AfridShaik/ltts_mini/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/AfridShaik/ltts_mini/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/cppcheck.yml)
 
 ## Folder Structure
 Folder             | Description
@@ -12,7 +12,7 @@ Folder             | Description
 `1-Requirements`   | Documents detailing requirements and research
 `2-Design`         | Documents specifying design details
 `3-Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+`4_Test_plan`      | All the 23 Test Plans
 
 
 
@@ -59,7 +59,27 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 ## How:
 * Calculating their marks manually for each subject would be a time-consuming operation, and if anything goes wrong, the whole process will have to be repeated from the beginning..
 
+## Cost and Features
+The Student Report Card Generates the report card of the student with all his/her details
 
+#### output will be in txt file
+- Name, Registration Number, Year, Branch, Age
+- Marks Input
+- Calculate accurate marks
+- The file will not be changed unit you add or change the details manually
+
+
+
+## Defining Our System
+The Student Report Card Has 3 
+1. Student Details
+2. Marks Input
+3. Calculate the marks
+
+
+### SWOT Analysis
+
+![Banner](https://github.com/AfridShaik/ltts_mini/blob/main/2-Design/swot.png)
 
 
 # Detail requirements
