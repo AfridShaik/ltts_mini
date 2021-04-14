@@ -1,0 +1,13 @@
+ Student Details are:
+ Name of the student: Afrid Ali
+ 
+ Registration Number: 171FA04236
+ 
+ Course: B.Tech 
+ Year: I 
+ Department: CSE 
+ Age of the student: 21 
+ Gender: Male 
+
+ Afrid Ali
+ have passed this semester with 0 backlogs
