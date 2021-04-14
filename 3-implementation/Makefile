@@ -53,7 +53,7 @@ test: $(SRC) $(test_src) $(UNITY)
 
 
 doc:
-	make -C doc
+	 make -C ./documentation
 
 #pro: $(main_src) $(SRC) 
 #	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe
