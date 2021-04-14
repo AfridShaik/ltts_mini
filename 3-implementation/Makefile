@@ -16,12 +16,15 @@ else
       FixPath = $1
 	  EXEC = out
    endif
-endif
+endif 
 
 
-SRC = src\marks_input.c src\student_input.c src\marks_calculate.c 
+
+ 
 
 test_src = test_files\marks_calculate_test.c 
+
+SRC = src\marks_input.c src\student_input.c src\marks_calculate.c
 
 main_src = main.c
 
