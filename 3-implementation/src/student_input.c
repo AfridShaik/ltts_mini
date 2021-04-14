@@ -19,7 +19,7 @@ Student s;
 		printf("\nEnter Name:");
 		fgets(s.name,20,stdin);
 		printf("\nEnter Registration number:");
-		gets(s.registration_number);
+		fgets(s.registration_number,20,stdin);
 		loop1:
 		printf("\nEnter the graduation year:\nPress 1 for I\nPress 2 for II\nPress 3 for III\nPress 4 for IV\n");
 		scanf("%d",&x);
@@ -113,13 +113,13 @@ Student s;
 		fptr = fopen("E:/program.txt","w");
 		fprintf(fptr," Student Details are:\n Name of the student: %s \n Registration Number: %s \n Course: %s \n Year: %s \n Department: %s \n Age of the student: %d \n Gender: %s \n",s.name,s.registration_number,s.course,s.year,s.department,s.age,s.gender);
 		
-	   if(fptr == NULL)
+	   /*if(fptr == NULL)
 	   {
 	      printf("Error!");   
 	      exit(1);             
-	   } 
-	   else
-	   {
+	   }*/ 
+	   //else
+	   //{
 	   		if(count==6)
 	   		{
 	   			fprintf(fptr,"\n %s have passed this semester with 0 backlogs",s.name);	
@@ -129,7 +129,7 @@ Student s;
 				count = 6-count;
 				fprintf(fptr,"\n %s have passed this semester with %d backlogs",s.name,count);
 			}
-	   }
+	   //}
 	   
 	   fclose(fptr);
 		printf("Do you want to report for other student?\nPress 1 for Yes\nPress 0 for No\n");
