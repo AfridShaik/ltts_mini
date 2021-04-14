@@ -2,7 +2,7 @@ PROJ_NAME = student_report
 
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-BUILD_DIR = Build
+BUILD_DIR = ./Build
 
 
 
@@ -47,7 +47,7 @@ test: $(SRC) $(test_src) $(UNITY)
 
 
 doc:
-	make -C doc
+	make -C documentation
 
 #pro: $(main_src) $(SRC) 
 #	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe
@@ -65,16 +65,16 @@ doc:
 
 
 coverage:${PROJECT_NAME}
-	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	gcc -fprofile-arcs -ftest-coverage main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(SRC)
-
+	gcov -a main.c $(SRC) $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+ 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
 
 clean:
-	del /q *.exe
-
-clean1:
-	del /q *.gcno
+	$(RM) *.$(EXEC)
+	$(RM) *.gcno
+	$(RM) *.gcov
+	$(RM) *.gcda
