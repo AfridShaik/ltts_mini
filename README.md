@@ -59,7 +59,9 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 ## How:
 * Calculating their marks manually for each subject would be a time-consuming operation, and if anything goes wrong, the whole process will have to be repeated from the beginning..
 
+### SWOT Analysis
 
+![Banner](https://github.com/AfridShaik/ltts_mini/blob/main/2-Design/swot.png)
 
 
 # Detail requirements
