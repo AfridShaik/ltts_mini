@@ -50,7 +50,7 @@ test: $(SRC) $(test_src) $(UNITY)
 
 
 doc:
-	make -C documentation
+	make -C doc
 
 #pro: $(main_src) $(SRC) 
 #	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe

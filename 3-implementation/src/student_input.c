@@ -17,7 +17,7 @@ Student s;
 	{
 		printf("\nEnter Student details:\n");
 		printf("\nEnter Name:");
-		gets(s.name);
+		fgets(s.name,20,stdin);
 		printf("\nEnter Registration number:");
 		gets(s.registration_number);
 		loop1:
