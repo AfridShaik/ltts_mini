@@ -1,5 +1,5 @@
-#include "E:\mini\unity\unity.h"
-#include "E:\mini\unity\unity_internals.h"
+#include "..\unity\unity.h"
+#include "..\unity\unity_internals.h"
 #include"..\inc\funtion.h"
 #include<stdio.h>
 
@@ -153,14 +153,15 @@ void test_total_marks_calculation_18(void)
 void test_total_marks_calculation_19(void)
 {
     TEST_ASSERT_EQUAL(95,total_marks_calculation(40,55));
-
-}
-
-void test_total_marks_calculation_20(void)
-{
     TEST_ASSERT_EQUAL(85,total_marks_calculation(30,55));
 
 }
+
+/*void test_total_marks_calculation_20(void)
+{
+    TEST_ASSERT_EQUAL(85,total_marks_calculation(30,55));
+
+}*/
 
 int main()
 {
@@ -192,7 +193,7 @@ int main()
     RUN_TEST(test_total_marks_calculation_17);
     RUN_TEST(test_total_marks_calculation_18);
     RUN_TEST(test_total_marks_calculation_19);
-    RUN_TEST(test_total_marks_calculation_20);
+   // RUN_TEST(test_total_marks_calculation_20);
 
 
     /* Close the Unity Test Framework */

@@ -33,6 +33,7 @@ UNITY = unity/unity.c
 INC =  -Iinc\
 -Iunity
 
+# Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean doc
 
 
