@@ -19,7 +19,7 @@ Student s;
 		printf("\nEnter Name:");
 		fgets(s.name,20,stdin);
 		printf("\nEnter Registration number:");
-		gets(s.registration_number);
+		fgets(s.registration_number,20,stdin);
 		loop1:
 		printf("\nEnter the graduation year:\nPress 1 for I\nPress 2 for II\nPress 3 for III\nPress 4 for IV\n");
 		scanf("%d",&x);
@@ -110,7 +110,7 @@ Student s;
             count+=ptr[i];
         }
 	    }
-		fptr = fopen("E:/program.txt","w");
+		fptr = fopen("program.txt","w");
 		fprintf(fptr," Student Details are:\n Name of the student: %s \n Registration Number: %s \n Course: %s \n Year: %s \n Department: %s \n Age of the student: %d \n Gender: %s \n",s.name,s.registration_number,s.course,s.year,s.department,s.age,s.gender);
 		
 	   if(fptr == NULL)

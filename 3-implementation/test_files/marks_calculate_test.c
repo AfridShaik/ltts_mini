@@ -1,6 +1,6 @@
-#include "E:\mini\unity\unity.h"
-#include "E:\mini\unity\unity_internals.h"
-#include"..\inc\funtion.h"
+#include "../unity/unity.h"
+#include "../unity/unity_internals.h"
+#include"../inc/funtion.h"
 #include<stdio.h>
 
 

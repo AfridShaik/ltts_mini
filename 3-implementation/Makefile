@@ -22,9 +22,9 @@ endif
 
  
 
-test_src = test_files\marks_calculate_test.c 
+test_src = test_files/marks_calculate_test.c 
 
-SRC = src\marks_input.c src\student_input.c src\marks_calculate.c
+SRC = src/marks_input.c src/student_input.c src/marks_calculate.c
 
 main_src = main.c
 
