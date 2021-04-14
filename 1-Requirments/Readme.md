@@ -32,6 +32,29 @@ Users will measure their grades before and after exams and strive for high grade
 ## How:
 * Calculating their marks manually for each subject would be a time-consuming operation, and if anything goes wrong, the whole process will have to be repeated from the beginning..
 
+## Cost and Features
+The Student Report Card Generates the report card of the student with all his/her details
+
+#### output will be in txt file
+- Name, Registration Number, Year, Branch, Age
+- Marks Input
+- Calculate accurate marks
+- The file will not be changed unit you add or change the details manually
+
+
+
+## Defining Our System
+The Student Report Card Has 3 
+1. Student Details
+2. Marks Input
+3. Calculate the marks
+
+
+### SWOT Analysis
+
+![Banner](https://github.com/AfridShaik/ltts_mini/blob/main/2-Design/swot.png)
+
+
 # Detail requirements
 ## High Level Requirements: 
 | ID | Description | Category | Status | 
