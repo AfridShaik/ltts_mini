@@ -31,6 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: make coverage
-        run: make -C 3-implementation/ coverage
-      - name: GCov only
-        run: gcovr -r 
+        run: make coverage
