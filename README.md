@@ -36,9 +36,9 @@ Users will measure their grades before and after exams and strive for high grade
 
 ## Contributors List and Summary
 
-SF Id. |  Name   |    Features    |No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|
-`293653` | Afrid Ali Shaik  | Get a detail report text file    | 0    |23   
+SF Id. |  Name   |    Features    |Test Case Pass
+-------|---------|----------------|----------------|
+`293653` | Afrid Ali Shaik  | Get a detail report text file    |23   
 
 ### Explanation:
 * Student Report:
