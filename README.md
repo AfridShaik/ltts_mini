@@ -2,9 +2,14 @@
 
 ![Banner](https://github.com/AfridShaik/ltts_mini/blob/main/1-Requirments/banner.jpg)
 
-Codacy | Code Coverage | Unity | Build | Code Quality - Static analysis
-|---------|--------------|-----------|------------------|------------------
-|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e8384776f44d0c971c1b03171b0bc9)](https://app.codacy.com/gh/AfridShaik/ltts_mini?utm_source=github.com&utm_medium=referral&utm_content=AfridShaik/ltts_mini&utm_campaign=Badge_Grade_Settings) |[![CI](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml)|[![Unit Testing - Unity](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml)| [![C/C++ CI - Build Status](https://github.com/AfridShaik/ltts_mini/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/c-cpp.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/AfridShaik/ltts_mini/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/cppcheck.yml)
+Codacy | Code Coverage | Unity | Build 
+|---------|--------------|-----------|------------------
+|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e8384776f44d0c971c1b03171b0bc9)](https://app.codacy.com/gh/AfridShaik/ltts_mini?utm_source=github.com&utm_medium=referral&utm_content=AfridShaik/ltts_mini&utm_campaign=Badge_Grade_Settings) |[![CI](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/main.yml)|[![Unit Testing - Unity](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/unity.yml)| [![C/C++ CI - Build Status](https://github.com/AfridShaik/ltts_mini/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/c-cpp.yml) 
+
+
+| Code Quality - Static analysis | Code Quality - Dynamic analysis
+|------------------|------------------
+ | [![Code Quality - Static Code - Cppcheck](https://github.com/AfridShaik/ltts_mini/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/cppcheck.yml)|[![Code Quality Dynamic Code Analysis Valgrind](https://github.com/AfridShaik/ltts_mini/actions/workflows/Valgring.yml/badge.svg)](https://github.com/AfridShaik/ltts_mini/actions/workflows/Valgring.yml)
 
 ## Folder Structure
 Folder             | Description
