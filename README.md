@@ -17,7 +17,8 @@ Folder             | Description
 `1-Requirements`   | Documents detailing requirements and research
 `2-Design`         | Documents specifying design details
 `3-Implementation` | All code and documentation
-`4_Test_plan`      | All the 23 Test Plans
+`4-Test_plan`      | All the 23 Test Plans
+`5-Images`         | All the output files are updated   
 
 
 
