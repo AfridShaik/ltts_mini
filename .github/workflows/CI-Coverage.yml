@@ -2,6 +2,12 @@
 
 name: Code-Coverage
 
+PROJ_NAME = student_report
+
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
+BUILD_DIR = ./Build
+
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -31,6 +37,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: make coverage
-        run: make -C 3-implementation/ coverage
-      - name: GCov only
-        run:  gcovr -r .
+        run: ${PROJECT_NAME}
+          gcc -fprofile-arcs -ftest-coverage main.c $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+          $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+          gcov -a main.c $(SRC) $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+
