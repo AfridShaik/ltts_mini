@@ -1,5 +1,5 @@
  Student Details are:
- Name of the student: Afrid Ali
+ Name of the student: Afrid
  
  Registration Number: 171FA04236
  
@@ -9,5 +9,5 @@
  Age of the student: 21 
  Gender: Male 
 
- Afrid Ali
- have passed this semester with 0 backlogs
+ Afrid
+ have passed this semester with 6 backlogs

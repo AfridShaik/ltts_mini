@@ -52,8 +52,7 @@ test: $(SRC) $(test_src) $(UNITY)
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 
-doc:
-	 make -C ./documentation
+
 
 #pro: $(main_src) $(SRC) 
 #	gcc $(main_src) $(SRC) -I$(INC)  -o pro.exe
